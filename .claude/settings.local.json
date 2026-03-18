@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cp -r /Users/yuhaoli/Desktop/audioBook-temp/audioBook-app/* /Users/yuhaoli/Desktop/audioBook/)",
+      "Bash(cp /Users/yuhaoli/Desktop/audioBook-temp/audioBook-app/.gitignore /Users/yuhaoli/Desktop/audioBook/)",
+      "Bash(rm -rf /Users/yuhaoli/Desktop/audioBook-temp)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(wrangler login:*)",
+      "Bash(wrangler secret:*)",
+      "Bash(wrangler deploy:*)",
+      "Bash(curl -s https://book-companion-tts.yukonlee2.workers.dev/health)",
+      "Bash(curl -s https://book-companion-tts.yukonlee2.workers.dev/voices)",
+      "Bash(git init:*)",
+      "Bash(gh auth:*)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git add:*)"
+    ]
+  }
+}
